@@ -1,0 +1,40 @@
+# ---------- Unity ----------
+# Папки, генерируемые Unity (пересоздаются при открытии проекта)
+client/[Ll]ibrary/
+client/[Tt]emp/
+client/[Oo]bj/
+client/[Bb]uild/
+client/[Bb]uilds/
+client/[Ll]ogs/
+client/[Uu]ser[Ss]ettings/
+client/[Mm]emoryCaptures/
+client/[Rr]ecordings/
+client/.utmp/
+client/*.csproj
+client/*.sln
+client/*.suo
+client/*.user
+client/*.userprefs
+client/*.pidb
+client/*.booproj
+client/*.svd
+client/*.pdb
+client/*.mdb
+client/*.opendb
+client/*.VC.db
+client/sysinfo.txt
+client/*.apk
+client/*.aab
+client/*.unitypackage
+client/.vs/
+client/.idea/
+client/crashlytics-build.properties
+
+# ---------- ОС ----------
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---------- Прочее ----------
+*.log

@@ -1,0 +1,16 @@
+{
+    "name": "Galarang.Editor",
+    "rootNamespace": "Galarang.EditorTools",
+    "references": [
+        "Unity.RenderPipelines.Universal.Runtime",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true,
+    "noEngineReferences": false
+}

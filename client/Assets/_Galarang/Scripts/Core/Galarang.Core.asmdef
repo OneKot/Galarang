@@ -1,0 +1,11 @@
+{
+    "name": "Galarang.Core",
+    "rootNamespace": "Galarang.Core",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true,
+    "noEngineReferences": true
+}
