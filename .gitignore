@@ -38,3 +38,15 @@ $RECYCLE.BIN/
 
 # ---------- Прочее ----------
 *.log
+__pycache__/
+*.py[cod]
+
+# ---------- Roblox & Tooling ----------
+*.exe
+roblox/tools/
+roblox/assets/models/temp_*
+roblox/test_build.rbxl
+*.rbxl.lock
+*.rbxlx.lock
+
+

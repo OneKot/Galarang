@@ -1,0 +1,64 @@
+{
+  "name": "Galarang",
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": {
+      "$className": "Workspace",
+      "DioramaTableBase": {
+        "$className": "Part",
+        "$properties": {
+          "Size": [150, 8, 150],
+          "Position": [0, -4, 0],
+          "Anchored": true,
+          "Color": [0.16, 0.10, 0.06],
+          "Material": "Wood",
+          "CanCollide": true
+        }
+      },
+      "SpawnLocation": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Size": [8, 0.6, 8],
+          "Position": [0, 4.3, 25],
+          "Anchored": true,
+          "CanCollide": true,
+          "Duration": 0,
+          "Color": [0.42, 0.39, 0.35],
+          "Material": "Cobblestone"
+        }
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Technology": "Future",
+        "ClockTime": 17.2,
+        "GeographicLatitude": 45,
+        "Brightness": 2.5,
+        "GlobalShadows": true,
+        "ShadowSoftness": 0.2,
+        "OutdoorAmbient": [0.55, 0.45, 0.38],
+        "Ambient": [0.38, 0.32, 0.28],
+        "ColorShift_Top": [1.0, 0.88, 0.68],
+        "ColorShift_Bottom": [0.38, 0.28, 0.20]
+      }
+    },
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/Shared"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/Server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/Client"
+        }
+      }
+    }
+  }
+}
